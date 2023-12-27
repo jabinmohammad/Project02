@@ -1,9 +1,9 @@
 version: '3'
 services:
   movies:
-    image: jabinmohammad/pen:latest
+    image: jabinmohammad/netflix:latest
     ports:
-      - "81:80"
+      - "89:80"
     deploy:
       replicas: 3
   train:
