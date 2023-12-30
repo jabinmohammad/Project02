@@ -1,7 +1,7 @@
 version: '3'
 services:
   netflix:
-    image: jabinmohammad/netflix:latest
+    image: jabinmohammad/netflix1:latest
     ports:
       - "89:80"
     deploy:
